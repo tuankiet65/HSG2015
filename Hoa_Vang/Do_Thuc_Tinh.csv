@@ -1,33 +1,33 @@
-1,0036,Huỳnh Tiến Dũng,9.1,07.05.2000,Đà Nẵng,THPT TRẦN PHÚ,2,TOÁN,2.25,""
-2,0068,Nguyễn Đặng Ngọc Hân,9.1,10.11.2000,Đà Nẵng,THPT TRẦN PHÚ,3,TOÁN,2.50,""
-3,0143,Nguyễn Hương Mai,9.2,10.09.2000,Đà Nẵng,THPT TRẦN PHÚ,6,TOÁN,5.50,K.Khích
-4,0168,Võ Thị Minh Ngọc,9.2,12.07.2000,Đà Nẵng,THPT TRẦN PHÚ,8,TOÁN,2.50,""
-5,0350,Nguyễn Minh Châu,9.4,02.03.2000,Nghệ An,THPT TRẦN PHÚ,15,NGỮ VĂN,5.75,Ba
-6,0368,Đinh Ngọc Thúy Duyên,9.2,13.02.2000,Đà Nẵng,THPT TRẦN PHÚ,16,NGỮ VĂN,7.75,Nhất
-7,0607,Nguyễn Thị Khánh Vân,9.4,09.03.2000,Đà Nẵng,THPT TRẦN PHÚ,27,NGỮ VĂN,7.00,Nhất
-8,0608,Trần Thị Thanh Vân,9.4,24.10.2000,Đà Nẵng,THPT TRẦN PHÚ,27,NGỮ VĂN,6.00,Ba
-9,0629,Nguyễn Thị Ngọc Anh,9.4,27.06.2000,Đà Nẵng,THPT TRẦN PHÚ,28,LỊCH SỬ,8.00,Nhì
-10,0716,Đỗ Hồ Châu Long,9.2,20.04.2000,Đà Nẵng,THPT TRẦN PHÚ,32,LỊCH SỬ,8.63,Nhất
-11,0784,Đặng Thị Như Phương,9.2,08.02.2000,Đà Nẵng,THPT TRẦN PHÚ,34,LỊCH SỬ,8.63,Nhất
-12,0838,Hoàng Thị Cẩm Tú,9.2,15.03.2000,Đà Nẵng,THPT TRẦN PHÚ,37,LỊCH SỬ,5.13,K.Khích
-13,0855,Trần Hà Lê Vi,9.3,23.06.2000,Đà Nẵng,THPT TRẦN PHÚ,38,LỊCH SỬ,7.88,Nhì
-14,0937,Đặng Minh Hoàng,9.1,01.10.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,3,ĐỊA LÝ,7.88,Nhất
-15,0950,Nguyễn Viết Khanh,9.4,12.07.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,4,ĐỊA LÝ,7.00,Nhì
-16,0963,Nguyễn Mai Linh,9.2,03.01.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,4,ĐỊA LÝ,7.63,Nhì
-17,1023,Trần Thị Ngọc Oanh,9.5,30.08.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,7,ĐỊA LÝ,6.13,Ba
-18,1047,Trần Công Tài,9.5,31.10.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,8,ĐỊA LÝ,9.25,Nhất
-19,1142,Nguyễn Thúy Vy,9.4,20.03.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,12,ĐỊA LÝ,9.63,Nhất
-20,1182,Phan Thành Đạt,9.1,18.08.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,2,VẬT LÝ,6.00,Ba
-21,1328,Hoàng Thị Quỳnh,9.1,03.01.2000,Quảng trị,THCS NGUYỄN KHUYẾN,8,VẬT LÝ,5.00,K.Khích
-22,1396,Dương Thị Ngọc Vi,9.1,03.05.2000,Quảng Nam,THCS NGUYỄN KHUYẾN,11,VẬT LÝ,0.50,""
-23,1471,Trần Hữu Hùng,9.2,17.01.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,14,HÓA HỌC,2.75,""
-24,1480,Đặng Phước Khánh Huyền,9.1,14.10.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,14,HÓA HỌC,5.00,K.Khích
-25,1508,Trần Lê Linh,9.1,02.01.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,16,HÓA HỌC,1.25,""
-26,1826,Nguyễn Thị Bích Ngọc,9.3,23.01.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,29,SINH HỌC,5.75,K.Khích
-27,1855,Trần Thị Tuyến Ny,9.1,02.02.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,30,SINH HỌC,5.75,K.Khích
-28,1880,Trần Văn Sỹ,9.3,18.07.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,32,SINH HỌC,5.75,K.Khích
-29,1897,Nguyễn Công Thông,9.3,28.11.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,32,SINH HỌC,4.50,""
-30,1901,Phùng Thị Thu,9.5,25.03.2000,Đà Nẵng,THCS NGUYỄN KHUYẾN,32,SINH HỌC,5.75,K.Khích
-31,2064,Phan Thị Thanh Hương,9.1,03.07.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,16,TIẾNG ANH,5.40,K.Khích
-32,2106,Đoàn Quang Minh,9.2,01.04.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,18,TIẾNG ANH,3.90,""
-33,2272,Đinh Ngọc Tường Vi,9.2,25.04.2000,Đà Nẵng,THPT CHUYÊN LÊ QUÝ ĐÔN,25,TIẾNG ANH,4.00,""
+1,0036,Huỳnh Tiến Dũng,"9/1",07/05/2000,Đà Nẵng,THPT Trần Phú,2,Toán,2.25,""
+2,0068,Nguyễn Đặng Ngọc Hân,"9/1",10/11/2000,Đà Nẵng,THPT Trần Phú,3,Toán,2.50,""
+3,0143,Nguyễn Hương Mai,"9/2",10/09/2000,Đà Nẵng,THPT Trần Phú,6,Toán,5.50,K.Khích
+4,0168,Võ Thị Minh Ngọc,"9/2",12/07/2000,Đà Nẵng,THPT Trần Phú,8,Toán,2.50,""
+5,0350,Nguyễn Minh Châu,"9/4",02/03/2000,Nghệ An,THPT Trần Phú,15,Ngữ văn,5.75,Ba
+6,0368,Đinh Ngọc Thúy Duyên,"9/2",13/02/2000,Đà Nẵng,THPT Trần Phú,16,Ngữ văn,7.75,Nhất
+7,0607,Nguyễn Thị Khánh Vân,"9/4",09/03/2000,Đà Nẵng,THPT Trần Phú,27,Ngữ văn,7.00,Nhất
+8,0608,Trần Thị Thanh Vân,"9/4",24/10/2000,Đà Nẵng,THPT Trần Phú,27,Ngữ văn,6.00,Ba
+9,0629,Nguyễn Thị Ngọc Anh,"9/4",27/06/2000,Đà Nẵng,THPT Trần Phú,28,Lịch sử,8.00,Nhì
+10,0716,Đỗ Hồ Châu Long,"9/2",20/04/2000,Đà Nẵng,THPT Trần Phú,32,Lịch sử,8.63,Nhất
+11,0784,Đặng Thị Như Phương,"9/2",08/02/2000,Đà Nẵng,THPT Trần Phú,34,Lịch sử,8.63,Nhất
+12,0838,Hoàng Thị Cẩm Tú,"9/2",15/03/2000,Đà Nẵng,THPT Trần Phú,37,Lịch sử,5.13,K.Khích
+13,0855,Trần Hà Lê Vi,"9/3",23/06/2000,Đà Nẵng,THPT Trần Phú,38,Lịch sử,7.88,Nhì
+14,0937,Đặng Minh Hoàng,"9/1",01/10/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,3,Địa lý,7.88,Nhất
+15,0950,Nguyễn Viết Khanh,"9/4",12/07/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,4,Địa lý,7.00,Nhì
+16,0963,Nguyễn Mai Linh,"9/2",03/01/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,4,Địa lý,7.63,Nhì
+17,1023,Trần Thị Ngọc Oanh,"9/5",30/08/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,7,Địa lý,6.13,Ba
+18,1047,Trần Công Tài,"9/5",31/10/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,8,Địa lý,9.25,Nhất
+19,1142,Nguyễn Thúy Vy,"9/4",20/03/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,12,Địa lý,9.63,Nhất
+20,1182,Phan Thành Đạt,"9/1",18/08/2000,Đà Nẵng,THCS Nguyễn Khuyến,2,Vật lý,6.00,Ba
+21,1328,Hoàng Thị Quỳnh,"9/1",03/01/2000,Quảng trị,THCS Nguyễn Khuyến,8,Vật lý,5.00,K.Khích
+22,1396,Dương Thị Ngọc Vi,"9/1",03/05/2000,Quảng Nam,THCS Nguyễn Khuyến,11,Vật lý,0.50,""
+23,1471,Trần Hữu Hùng,"9/2",17/01/2000,Đà Nẵng,THCS Nguyễn Khuyến,14,Hóa học,2.75,""
+24,1480,Đặng Phước Khánh Huyền,"9/1",14/10/2000,Đà Nẵng,THCS Nguyễn Khuyến,14,Hóa học,5.00,K.Khích
+25,1508,Trần Lê Linh,"9/1",02/01/2000,Đà Nẵng,THCS Nguyễn Khuyến,16,Hóa học,1.25,""
+26,1826,Nguyễn Thị Bích Ngọc,"9/3",23/01/2000,Đà Nẵng,THCS Nguyễn Khuyến,29,Sinh học,5.75,K.Khích
+27,1855,Trần Thị Tuyến Ny,"9/1",02/02/2000,Đà Nẵng,THCS Nguyễn Khuyến,30,Sinh học,5.75,K.Khích
+28,1880,Trần Văn Sỹ,"9/3",18/07/2000,Đà Nẵng,THCS Nguyễn Khuyến,32,Sinh học,5.75,K.Khích
+29,1897,Nguyễn Công Thông,"9/3",28/11/2000,Đà Nẵng,THCS Nguyễn Khuyến,32,Sinh học,4.50,""
+30,1901,Phùng Thị Thu,"9/5",25/03/2000,Đà Nẵng,THCS Nguyễn Khuyến,32,Sinh học,5.75,K.Khích
+31,2064,Phan Thị Thanh Hương,"9/1",03/07/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,16,Tiếng Anh,5.40,K.Khích
+32,2106,Đoàn Quang Minh,"9/2",01/04/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,18,Tiếng Anh,3.90,""
+33,2272,Đinh Ngọc Tường Vi,"9/2",25/04/2000,Đà Nẵng,THPT chuyên Lê Quý Đôn,25,Tiếng Anh,4.00,""

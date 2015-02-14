@@ -73,25 +73,39 @@ dict_schools = {
     "Phan_Dinh_Phung": "THCS Phan Đình Phùng",
     "Do_Dang_Tuyen": "THCS Đỗ Đăng Tuyển"
 }
-
-contestants = []
-
+dict_testsite = {
+    "THCS NGUYỄN KHUYẾN": "THCS Nguyễn Khuyến",
+    "THPT TRẦN PHÚ": "THPT Trần Phú",
+    "THPT CHUYÊN LÊ QUÝ ĐÔN": "THPT chuyên Lê Quý Đôn"
+}
+dict_subject={
+    'Tiếng anh': 'Tiếng Anh',
+    'Tiếng nhật': 'Tiếng Nhật',
+    'Tiếng pháp': 'Tiếng Pháp'
+}
 for district in dict_districts.keys():
     for school in os.listdir(district):
         if school[:-4] in dict_schools:
             with open(os.path.join(district, school), "r", newline='') as f:
                 raw_data = csv.reader(f, strict=True)
+                contestants = []
                 for row in raw_data:
-                    contestants.append([row[1], row[2], row[4], row[5], row[3], dict_schools[school[:-4]], dict_districts[district], row[6], row[8], row[7], row[9], row[10]])
-
-contestants.sort(key=lambda sbd: sbd[0])
-
-with open("merged.csv", "w", newline="") as merged_data:
-    merged_data.write(
-        "SBD,Họ và tên,Ngày sinh,Nơi sinh,Lớp,Trường,Quận,Địa điểm thi,Môn thi,Phòng thi,Điểm,Xếp giải\n")
-    for contestant in contestants:
-        contestant[3]='"'+contestant[3]+'"'
-        contestant[4]='"'+contestant[4]+'"'
-        if contestant[11]=="":
-        	contestant[11]='""'
-        merged_data.write(','.join(contestant)+"\n")
+                    contestants.append([s.strip() for s in row])
+            with open(os.path.join(district, school), "w", newline='') as f:
+                for contestant in contestants:
+                    if contestant[5] in ['Hồ Chí Minh', 'TP Hồ Chí Minh', 'TP.Hồ Chí Minh', 'TP.HCM']:
+                        contestant[5] = "TP. Hồ Chí Minh"
+                    if contestant[5] in ['Q Nam', 'Quãng  Nam', 'Quảng  Nam']:
+                        contestant[5] = 'Quảng Nam'
+                    if contestant[5] in ['TT. Huế', 'TT-Huế', 'Huế', 'Thừa Thiên-Huế', 'Thừa Thiên- Huế', 'Thừa Thiên Huế']:
+                        contestant[5] = 'Thừa Thiên - Huế'
+                    if contestant[5] in ['Đăk Lăk']:
+                        contestant[5] = 'Đắk Lắk'
+                    #contestant[6] = dict_testsite[contestant[6]]
+                    if contestant[8] in dict_subject:
+                        contestant[8]=dict_subject[contestant[8]]
+                    contestant[3] = '"' + contestant[3].replace(".", "/") + '"'
+                    contestant[4] = contestant[4].replace('.', '/')
+                    if contestant[10] == "":
+                        contestant[10] = '""'
+                    f.write(",".join(contestant) + "\n")
