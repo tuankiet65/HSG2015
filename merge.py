@@ -83,13 +83,13 @@ for district in dict_districts.keys():
                 raw_data = csv.reader(f)
                 for row in raw_data:
                     contestants.append(
-                        [row[1].strip(), row[2].strip(), row[3].strip(), row[4].strip(), row[5].strip(), dict_schools[school[:-4]], dict_districts[district], row[6].strip(), row[8].strip(), row[7].strip(), row[9].strip(), row[10].strip()])
+                        [row[1].strip(), row[2].strip(), row[4].strip(), row[5].strip(), row[3].strip(), dict_schools[school[:-4]], dict_districts[district], row[6].strip(), row[8].strip(), row[7].strip(), row[9].strip(), row[10].strip()])
 
 contestants.sort(key=lambda sbd: sbd[0])
 
 with open("merged.csv", "w", newline="") as merged_data:
     merged_data.write(
-        "SBD,Họ và tên,Lớp,Ngày sinh,Nơi sinh,Trường,Quận,Địa điểm thi,Môn thi,Phòng thi,Điểm,Xếp giải\n")
+        "SBD,Họ và tên,Ngày sinh,Nơi sinh,Lớp,Trường,Quận,Địa điểm thi,Môn thi,Phòng thi,Điểm,Xếp giải\n")
     writer=csv.writer(merged_data, quoting=csv.QUOTE_MINIMAL)
     for contestant in contestants:
         writer.writerow(contestant)
